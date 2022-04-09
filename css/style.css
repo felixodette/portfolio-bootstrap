@@ -1,0 +1,16 @@
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+    background: black;
+}
+
+.icon-white {
+    color: white;
+}
+
+@media (min-width: 768px) {
+    new-input {
+        width: 50%;
+    }
+}
