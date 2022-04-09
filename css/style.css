@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
 body::before {
     display: block;
     content: '';
@@ -9,6 +11,23 @@ body::before {
     color: white;
 }
 
+.title {
+    position: static;
+    width: 566px;
+    height: 160px;
+    left: 0px;
+    margin-top: 264px;
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 82px;
+    color: #f55800;
+}
+
+.img-hero {
+    padding-right: 0px;
+}
 @media (min-width: 768px) {
     new-input {
         width: 50%;
